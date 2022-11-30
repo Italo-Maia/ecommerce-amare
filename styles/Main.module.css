@@ -1,0 +1,333 @@
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container,
+.big-container {
+    width: calc(100% - 20px);
+    padding: 0 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* 
+.container-big {
+    max-width: 1440px;
+} */
+
+/* Estilos do Header */
+
+.Header {
+  max-height: 130px;
+}
+
+.header-wrapper,
+.categories {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  max-width: 230px;
+  cursor: pointer;
+}
+
+.input-pesquisa {
+  font-size: 1rem;
+  color: #333;
+  margin: 0 10px;
+  padding: 10px 25px;
+  width: 90%;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+
+.button-pesquisa {
+  margin-left: -45px;
+  font-size: 1.3rem;
+  color: #333;
+  border: 0;
+  background-color: transparent;
+}
+
+.itens-cabecalho {
+  padding: 21px 0;
+}
+
+.button-pesquisa:hover {
+  cursor: pointer;
+}
+
+.item-cabecalho {
+  cursor: pointer;
+}
+
+.item-cabecalho span {
+  font-size: 18px;
+  margin: 0 5px;
+  color: #777;
+}
+
+.item-cabecalho i {
+  color: #e87c08;
+  font-size: 1.6rem;
+  margin: 0 5px;
+}
+
+.item-cabecalho.cart {
+  margin-left: 16px;
+}
+
+.item-cabecalho.cart span {
+  font-size: 1.2rem;
+  color: #e87c08;
+  background-color: #222;
+  border-radius: 100px;
+  padding: 0 5px;
+  margin-left: -10px;
+  position: relative;
+  top: -15px;
+}
+
+/* Categorias Do Header*/
+
+.categories-wrapper {
+  background-color: #ff9a08;
+}
+
+.category-item {
+  padding: 10px 5px;
+  border-right: 1px solid #e87c08;
+  font-weight: bold;
+  color: #222;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.category-item:hover {
+  cursor: pointer;
+  background-color: #e87c08;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.category-item:last-child {
+  border-right: 0;
+}
+
+@media screen and (max-width: 720px) {
+  .header-wrapper {
+    flex-direction: column;
+  }
+
+  .categories {
+    overflow-x: scroll;
+  }
+
+  .Header {
+    max-height: 230px;
+  }
+
+  .wrap-mb {
+    flex-wrap: wrap;
+  }
+  .wrap-2-mv {
+    flex-basis: calc(50% - 20px);
+    max-width: 50%;
+  }
+
+  .horizontal-mb {
+    flex-direction: row;
+  }
+}
+/* Estilos do Header */
+/* Fim */
+
+/* Banner */
+
+.banner {
+  max-height: 50vh;
+  margin: 38px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1d1d1d;
+
+}
+
+.banner img {
+min-width: 100%;
+height: 100%;
+
+background-size: cover;
+
+  }
+
+/* Beneficios */
+
+.Benefits {
+  padding: 25px 0;
+  background-color: #ff9a08;
+  margin-top: -38px;
+}
+
+.Benefits i {
+  color: #fff;
+}
+
+.Benefits span {
+  color: #1d1d1d;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+/* Produtos*/ 
+
+.Products-Home-Page {
+  margin: 30px auto;
+}
+
+.Products-Home-Page h2{
+  color: #222;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Products {
+  flex-wrap: wrap;
+}
+
+.product {
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 4px;
+  color: #eee;
+  flex-basis: calc(25% - 20px);
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #1d1d1d;
+}
+
+.product:hover {
+  box-shadow: 0 0 7px #ddd;
+}
+
+.product-image {
+  height: 250px;
+}
+
+.product-title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.product-price h2, .product-price-promotion h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: -10px;
+}
+
+.product-value h2 {
+  font-size: 1.1rem;
+  text-decoration: line-through;
+  color: #000;
+  margin: 0;
+}
+
+.product-price-parcel h4 {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+
+@media screen and (max-width: 740px) {
+  .Products {
+    margin: auto;
+    padding: 10px;
+  }
+  .product {
+    margin: 20px auto;
+    min-width: 300px;
+    max-width: 300px;
+    flex-wrap: wrap;
+  }
+}
+
+/* Produtos*/ 
+
+/* Rodape */
+
+.Rodape {
+  background-color: #1d1d1d;
+  padding: 60px 0;
+  color: #fff;
+}
+
+.Rodape a {
+  color: #ff9600;
+  padding: 0;
+  margin: 0;
+}
+
+.Rodape i {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+.Rodape h2{
+  font-size: 1.3rem;
+  color: #ff9600;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 740px) {
+  .Rodape .container{
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .Rodape h2{
+    margin-top: 50px;
+  }
+
+}
