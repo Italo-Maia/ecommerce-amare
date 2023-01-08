@@ -58,6 +58,7 @@ const ProductsHomePage = () => {
 								h="500"
 								title={item.title}
 								price={item.price}
+								alt={item.title}
 							/>
 						</Col>
 					))}

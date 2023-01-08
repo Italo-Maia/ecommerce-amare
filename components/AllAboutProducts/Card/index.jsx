@@ -10,6 +10,7 @@ export default function CardAllAbotProducts(props) {
 					src={props.img}
 					width={props.w}
 					height={props.h}
+					alt={props.alt || "fone"}
 				/>
 			</Styled.Box>
 			<Styled.Content>

@@ -84,6 +84,11 @@
   padding: 21px 0;
 }
 
+.institucional a {
+  color: #000;
+  text-decoration: none;
+}
+
 .button-pesquisa:hover {
   cursor: pointer;
 }

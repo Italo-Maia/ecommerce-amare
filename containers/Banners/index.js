@@ -35,13 +35,13 @@ class Banners extends Component {
     const { img } = this.state;
     return (
       <div className={`${styles["flex-1"]} ${styles.banner}`}>
-        <img src={img} className={styles.banner} />
+        <img src={img} className={styles.banner} alt="banner" />
       </div>
     );
   }
 
   render() {
-    return <div className={`${styles.Banners} `}>{this.renderBanners()}</div>;
+    return <div>{this.renderBanners()}</div>;
   }
 }
 
