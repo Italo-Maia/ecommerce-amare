@@ -16,9 +16,12 @@ const Pages = () => {
 			<Link href="/cart">
 				<span>Carrinho</span>
 			</Link>
-			<Link href="/area-client">
+			<Link href="/login">
 				<span>Minha Conta</span>
 			</Link>
+			{/* <Link href="/area-client">
+				<span>Minha Conta</span>
+			</Link> */}
 			<Link href="/sobre">
 				<span>SOBRE</span>
 			</Link>
