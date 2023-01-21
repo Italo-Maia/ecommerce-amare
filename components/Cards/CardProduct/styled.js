@@ -27,10 +27,13 @@ export const Content = styled.div`
 	padding: 0.5rem 0;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.p`
+	font-size: 14px;
+	font-weight: bold;
 	color: gray;
 `;
 
 export const Price = styled.p`
-	color: gray;
+	color: orange;
+	font-size: 25px;
 `;

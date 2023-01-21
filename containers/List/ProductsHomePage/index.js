@@ -8,45 +8,9 @@ import "swiper/css/navigation";
 import CardProduct from "../../../components/Cards/CardProduct";
 import Section from "../../../utils/Section";
 
-const ProductsHomePage = () => {
-	const PRODUCTS = [
-		{
-			id: 1,
-			foto: "/images/fone-canva.png",
-			title: "Fone",
-			price: 35,
-			Promotion: 25,
-		},
-		{
-			id: 2,
-			foto: "/images/fone-canva.png",
-			title: "Fone",
-			price: 35,
-			Promotion: 25,
-		},
-		{
-			id: 3,
-			foto: "/images/fone-canva.png",
-			title: "Fone",
-			price: 35,
-			Promotion: 25,
-		},
-		{
-			id: 4,
-			foto: "/images/fone-canva.png",
-			title: "Fone",
-			price: 35,
-			Promotion: 25,
-		},
-		{
-			id: 5,
-			foto: "/images/fone-canva.png",
-			title: "Fone",
-			price: 35,
-			Promotion: 25,
-		},
-	];
+import { MOCKS } from "../../../mocks";
 
+const ProductsHomePage = () => {
 	return (
 		<div>
 			<Section>
@@ -62,12 +26,12 @@ const ProductsHomePage = () => {
 						spaceBetween={30}
 						slidesPerView={3}
 					>
-						{PRODUCTS.map((item) => (
+						{MOCKS.PRODUCTS_LANCAMENTOS.map((item) => (
 							<SwiperSlide key={item.name}>
 								<CardProduct
 									img={item.foto}
-									w="300"
-									h="400"
+									w="200"
+									h="300"
 									title={item.title}
 									price={item.price}
 								/>
@@ -89,12 +53,12 @@ const ProductsHomePage = () => {
 						spaceBetween={30}
 						slidesPerView={3}
 					>
-						{PRODUCTS.map((item) => (
+						{MOCKS.PRODUCTS_MAIS_VENDIDOS.map((item) => (
 							<SwiperSlide key={item.name}>
 								<CardProduct
 									img={item.foto}
-									w="300"
-									h="400"
+									w="200"
+									h="300"
 									title={item.title}
 									price={item.price}
 								/>
@@ -107,7 +71,7 @@ const ProductsHomePage = () => {
 				<Container>
 					<Row>
 						<h2 className="d-flex justify-content-center p-3">
-							Slider
+							OFERTAS
 						</h2>
 					</Row>
 					<Swiper
@@ -116,12 +80,12 @@ const ProductsHomePage = () => {
 						spaceBetween={30}
 						slidesPerView={3}
 					>
-						{PRODUCTS.map((item) => (
+						{MOCKS.PRODUCTS_OFERTAS.map((item) => (
 							<SwiperSlide key={item.name}>
 								<CardProduct
 									img={item.foto}
-									w="300"
-									h="400"
+									w="200"
+									h="300"
 									title={item.title}
 									price={item.price}
 								/>

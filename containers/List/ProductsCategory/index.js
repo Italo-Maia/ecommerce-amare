@@ -9,7 +9,7 @@ const ProductsCategory = () => {
 			id: 1,
 			foto: ["/images/fone-canva.png"],
 			title: "Fone",
-			price: 35,
+			price: 30,
 			Promotion: 25,
 		},
 		{
@@ -121,16 +121,12 @@ const ProductsCategory = () => {
 
 	return (
 		<div className={`${styles.container} ${styles["Category-Products"]}`}>
-			{/* ${styles["Products-Home-Page"]} ${styles.flex} ${styles.vertical} */}
 			<div className={`${styles["flex-center"]} ${styles.flex}`}>
 				<h1>Acessorios</h1>
 			</div>
 			<br />
 
 			<Products product={PRODUCTS} quantityItens={4} />
-
-			{/* //Contruir Pagina de PAGINAÇÃO */}
-			{/* <Pagination />*/}
 		</div>
 	);
 };
