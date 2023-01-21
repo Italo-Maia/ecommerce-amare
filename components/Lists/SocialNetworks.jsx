@@ -18,7 +18,7 @@ const SocialNetworks = () => {
 				<br />
 			</div>
 			<div
-				className={`${styles["flex-1"]} ${styles.flex} ${styles["redes-sociais"]} ${styles.wrap}`}
+				className={`${styles.flex} ${styles["redes-sociais"]} ${styles.wrap}`}
 			>
 				{REDES_SOCIAIS.map((item) => (
 					<div

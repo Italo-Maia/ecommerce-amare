@@ -10,21 +10,10 @@ const Pages = () => {
 				<h2>Paginas</h2>
 				<br />
 			</div>
-			<Link href="/">
-				<span>Pagina Inicial</span>
-			</Link>
-			<Link href="/cart">
-				<span>Carrinho</span>
-			</Link>
-			<Link href="/login">
-				<span>Minha Conta</span>
-			</Link>
-			{/* <Link href="/area-client">
-				<span>Minha Conta</span>
-			</Link> */}
-			<Link href="/sobre">
-				<span>SOBRE</span>
-			</Link>
+			<Link href="/">Pagina Inicial</Link>
+			<Link href="/cart">Carrinho</Link>
+			<Link href="/login">Minha Conta</Link>
+			<Link href="/sobre">SOBRE</Link>
 		</div>
 	);
 };

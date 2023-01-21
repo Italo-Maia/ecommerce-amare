@@ -39,10 +39,6 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-/* 
-.container-big {
-    max-width: 1440px;
-} */
 
 /* Estilos do Header */
 
@@ -85,7 +81,8 @@
 }
 
 .institucional a {
-  color: #000;
+  color: #ccc;
+  margin-top: 30px;
   text-decoration: none;
 }
 
@@ -308,12 +305,6 @@ background-size: cover;
   color: #fff;
 }
 
-.Rodape a {
-  color: #ff9600;
-  padding: 0;
-  margin: 0;
-}
-
 .Rodape i {
   font-size: 1.5rem;
   color: #fff;
@@ -325,6 +316,18 @@ background-size: cover;
   font-size: 1.3rem;
   color: #ff9600;
   font-weight: bold;
+}
+
+/*Redes sociais*/
+
+.redes-sociais {
+  max-width: 30px;
+}
+
+/*Data-pages*/
+
+.data-pages p{
+  color: #ccc;
 }
 
 @media screen and (max-width: 740px) {
@@ -339,3 +342,4 @@ background-size: cover;
   }
 
 }
+

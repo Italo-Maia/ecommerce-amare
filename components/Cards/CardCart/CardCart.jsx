@@ -1,7 +1,7 @@
 import Link from "next/link";
-import styles from "../../styles/Main.module.css";
+import styles from "../../../styles/Main.module.css";
 
-const CartItem = () => {
+const CardCart = () => {
 	const state = { cartQtd: 0 };
 
 	return (
@@ -14,12 +14,7 @@ const CartItem = () => {
 					<span>Minha Conta</span>
 				</div>
 			</Link>
-			{/* <Link href="/area-cliente">
-				<div className={`${styles["item-cabecalho"]}`}>
-					<i className="fa fa-user"></i>
-					<span>Minha Conta</span>
-				</div>
-			</Link> */}
+
 			<Link href="/carrinho">
 				<div className={`${styles["item-cabecalho"]} ${styles.cart}`}>
 					<i className="fa fa-shopping-bag"></i>
@@ -30,4 +25,4 @@ const CartItem = () => {
 	);
 };
 
-export default CartItem;
+export default CardCart;

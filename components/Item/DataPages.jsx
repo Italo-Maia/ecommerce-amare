@@ -7,12 +7,12 @@ const DataPages = () => {
 				<h2>Contato</h2>
 				<br />
 			</div>
-			<p className="loja-nome">NOME: King</p>
+			<p className="loja-nome">King Eletronicos</p>
 			<p className="loja-cnpj">CNPJ 166566464</p>
 			<p className="loja-email">E-mail</p>
 			<p className="loja-telefones">Telefones</p>
 			<p className="loja-telefones">
-				&nbsp;&nbsp; <a href="phone:(31) 91919191">(31) 91919191</a>
+				&nbsp;&nbsp; <a href="phone:(31) 91919191">(31) 992822398</a>
 			</p>
 			<p className="loja-endereço">Endereço</p>
 		</div>

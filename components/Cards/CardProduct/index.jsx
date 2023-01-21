@@ -1,7 +1,7 @@
 import Image from "next/image";
 import * as Styled from "./styled";
 
-export default function CardAllAbotProducts(props) {
+export default function CardProduct(props) {
 	return (
 		<Styled.Card>
 			<Styled.Box>

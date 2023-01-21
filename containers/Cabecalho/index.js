@@ -1,4 +1,4 @@
-import CartItem from "../../components/Cards/CartItem";
+import CardCart from "../../components/Cards/CardCart/CardCart";
 import SearchField from "../../components/Fields/SearchField";
 import Logo from "../../components/Logo/HeaderLogo";
 import Categories from "../../components/Lists/Categories";
@@ -13,9 +13,7 @@ const Cabecalho = (props) => {
 					<div className={styles["header-wrapper"]}>
 						<Logo />
 						<SearchField />
-						<CartItem />
-						{/* <InputSearch />
-                        <CardCart /> */}
+						<CardCart />
 					</div>
 				</div>
 				<div
