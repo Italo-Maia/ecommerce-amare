@@ -6,7 +6,7 @@ const api = axios.create({
 	baseURL: "http://34.204.95.70:8080/users",
 });
 
-//Essa função vai retornar um objeto com funções para serem utilizadas
+//Essa função irá retornar um objeto com funções para serem utilizadas
 export const useApi = () => ({
 	//Validar token
 	validateToken: async (token) => {
