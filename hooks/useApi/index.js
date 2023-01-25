@@ -3,7 +3,7 @@ import axios from "axios";
 //buscar api
 const api = axios.create({
 	//Ler a informaçao do .env para alterar o endereço da api
-	baseURL: "http://localhost:8080/users",
+	baseURL: "http://34.204.95.70:8080/users",
 });
 
 //Essa função vai retornar um objeto com funções para serem utilizadas
