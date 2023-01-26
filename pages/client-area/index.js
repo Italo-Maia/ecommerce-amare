@@ -1,7 +1,9 @@
 const Client = () => {
     return (
       <div>
-          <h2>King Eletronicos - Client </h2>
+          <h1>King Eletronicos - Client Area </h1>
+
+          <h2>Essa é uma área logada</h2>
       </div>
     )
   }

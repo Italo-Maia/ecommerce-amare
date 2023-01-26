@@ -25,7 +25,7 @@ const Login = () => {
 			const isLogged = await auth.signin(email, password);
 
 			if (isLogged) {
-				router.push("/");
+				router.push("/client-area");
 			} else {
 				console.log("Error isLogged");
 			}
