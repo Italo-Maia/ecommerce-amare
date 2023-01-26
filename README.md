@@ -1,7 +1,9 @@
 # Projeto Ecommerce
 
 
-## O projeto tem como objetivo construir um ecommerce com Next.JS e o backend está sendo desenvolido com Node
+### O projeto tem como objetivo construir um ecommerce com Next.JS e o backend está sendo desenvolido com Node
+
+<br />
 
 ### O que foi aprendido com este projeto:
 
@@ -15,7 +17,12 @@
    * NEXT JS
    * NODE JS
 
+<br />
 
 # Veja o projeto em funcionamento
 
- <a href="https://ecommerce-king-eletronics.vercel.app/" target="_blank">AQUI 🖱 </a> 🌍</h2>
+<br />
+
+<p  align="center" style="color:orange;"> Acesse clicando: 
+ <a style="color:white;" href="https://ecommerce-king-eletronics.vercel.app/" target="_blank"> ecommerce-king-eletronics.verce 🌍</a>
+</p>
