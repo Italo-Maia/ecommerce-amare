@@ -7,6 +7,7 @@
 
 ### O que foi aprendido com este projeto:
 
+   * AWS
    * HTML
    * CSS
    * JAVASCRIPT
